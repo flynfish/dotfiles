@@ -8,10 +8,7 @@ alias weather="curl -4 http://wttr.in"
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
-alias sites="cd $HOME/Sites"
-
-# Laravel
-alias a="php artisan"
+alias dev="cd $HOME/dev"
 
 # Vagrant
 alias v="vagrant global-status"

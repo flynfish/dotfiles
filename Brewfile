@@ -4,7 +4,6 @@ tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/dupes'
-tap 'homebrew/php'
 
 # Install ZSH
 brew 'zsh'
@@ -23,38 +22,43 @@ brew 'bash'
 brew 'homebrew/dupes/grep'
 
 # Install Binaries
-brew 'awscli'
 brew 'git'
-brew 'hub'
-brew 'tree'
-brew 'mackup'
-brew 'mas'
+brew 'ansible'
+brew 'awscli'
+brew 'heroku-toolbelt'
+brew 'mackup' # Saves application preferences to dropbox
+brew 'mas' # Mac app store
+brew 'scmpuff'
 brew 'node'
-brew 'trash'
+brew 'vim'
 brew 'wget'
 
-# Development
-brew 'php71', args: ['with-debug']
-brew 'mariadb'
-
 # Apps
+cask 'adobe-creative-cloud'
+cask 'adobe-photoshop-cc'
+cask 'adobe-photoshop-lightroom'
 cask 'aerial'
-cask 'alfred'
+cask 'atom'
 cask 'caffeine'
+cask 'citrix-receiver'
+cask 'docker'
 cask 'dropbox'
+cask 'fluid'
 cask 'firefox'
 cask 'google-chrome'
-cask 'google-drive'
+cask 'google-hangouts'
 cask 'iterm2'
-cask 'mysqlworkbench'
-cask 'phpstorm'
-cask 'quip'
+cask 'lastpass'
+cask 'postman'
+cask 'product-hunt'
+cask 'screenhero'
 cask 'sequel-pro'
 cask 'slack'
-cask 'sublime-text'
-cask 'tower'
+cask 'spectacle'
+cask 'spotify'
 cask 'transmit'
 cask 'vagrant'
+cask 'viscosity'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'vlc'
@@ -67,17 +71,9 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 # Fonts
-cask 'font-sauce-code-powerline'
+cask 'font-inconsolata'
 cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
-mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Giphy Capture', id: 668208984
-mas 'Paw', id: 584653203
-mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
-mas 'Tweetbot', id: 557168941
+mas 'Microsoft Remote Desktop', id: 715768417
+mas 'Pocket', id: 568494494
