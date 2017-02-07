@@ -17,3 +17,5 @@ alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
 alias vreload="vagrant reload"
 alias vrebuild="vagrant destroy --force && vagrant up"
+
+alias vi="vim -u ~/.vimrc"
