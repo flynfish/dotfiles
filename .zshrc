@@ -61,7 +61,8 @@ source $ZSH/oh-my-zsh.sh
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-eval "$(rbenv init -)"
+[ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
+
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
