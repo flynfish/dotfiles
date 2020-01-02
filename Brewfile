@@ -18,9 +18,6 @@ brew 'findutils'
 # Install Bash 4
 brew 'bash'
 
-# Install more recent versions of some macOS tools
-brew 'homebrew/dupes/grep'
-
 # Install Binaries
 brew 'git'
 # brew 'ansible'
