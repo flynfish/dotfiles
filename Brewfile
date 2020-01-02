@@ -25,7 +25,6 @@ brew 'homebrew/dupes/grep'
 brew 'git'
 # brew 'ansible'
 # brew 'awscli'
-brew 'heroku-toolbelt'
 brew 'mackup' # Saves application preferences to dropbox
 # brew 'mas' # Mac app store
 brew 'scmpuff'
