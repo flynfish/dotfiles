@@ -3,6 +3,7 @@ tap 'homebrew/cask-cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'heroku/brew'
 
 # Install ZSH
 brew 'zsh'
@@ -31,6 +32,7 @@ brew 'scmpuff'
 brew 'node'
 brew 'vim'
 brew 'wget'
+brew 'heroku'
 
 # Apps
 # cask 'adobe-creative-cloud'
