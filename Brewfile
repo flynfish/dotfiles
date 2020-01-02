@@ -23,45 +23,44 @@ brew 'homebrew/dupes/grep'
 
 # Install Binaries
 brew 'git'
-brew 'ansible'
-brew 'awscli'
+# brew 'ansible'
+# brew 'awscli'
 brew 'heroku-toolbelt'
 brew 'mackup' # Saves application preferences to dropbox
-brew 'mas' # Mac app store
+# brew 'mas' # Mac app store
 brew 'scmpuff'
 brew 'node'
 brew 'vim'
 brew 'wget'
 
 # Apps
-cask 'adobe-creative-cloud'
-cask 'adobe-photoshop-cc'
-cask 'adobe-photoshop-lightroom'
-cask 'aerial'
-cask 'atom'
+# cask 'adobe-creative-cloud'
+# cask 'adobe-photoshop-cc'
+# cask 'adobe-photoshop-lightroom'
+# cask 'aerial'
 cask 'caffeine'
-cask 'citrix-receiver'
-cask 'docker'
+# cask 'citrix-receiver'
+# cask 'docker'
 cask 'dropbox'
 cask 'fluid'
 cask 'firefox'
 cask 'google-chrome'
-cask 'google-hangouts'
+# cask 'google-hangouts'
 cask 'iterm2'
 cask 'lastpass'
 cask 'postman'
 cask 'product-hunt'
-cask 'screenhero'
-cask 'sequel-pro'
+# cask 'sequel-pro'
 cask 'slack'
 cask 'spectacle'
 cask 'spotify'
-cask 'transmit'
-cask 'vagrant'
-cask 'viscosity'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
-cask 'vlc'
+# cask 'transmit'
+# cask 'vagrant'
+# cask 'viscosity' #vpn
+cask 'visual-studio-code'
+# cask 'virtualbox'
+# cask 'virtualbox-extension-pack'
+# cask 'vlc'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -75,5 +74,5 @@ cask 'font-inconsolata'
 cask 'font-source-code-pro'
 
 # Install Mac App Store apps
-mas 'Microsoft Remote Desktop', id: 715768417
-mas 'Pocket', id: 568494494
+# mas 'Microsoft Remote Desktop', id: 715768417
+# mas 'Pocket', id: 568494494
